@@ -8,7 +8,7 @@ export const StorageContext = createContext(null);
 const StorageContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "http://localhost:9000";
+    const url = "https://yummyfooddelivery-backend.onrender.com";
     const [token , setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
 
