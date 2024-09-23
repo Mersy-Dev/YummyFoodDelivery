@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css'; // Import default styles
 
 
 const App = () => {
-  const url = 'http://localhost:9000';
+  const url = 'https://yummyfooddelivery-backend.onrender.com';
   return (
     <div>
       <ToastContainer position="top-center" autoClose={3000}/>
